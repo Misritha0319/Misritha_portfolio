@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Guggilla Misritha — Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="bar">
+    <span class="name mono">misritha.dev</span>
+    <nav><ul>
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#education">education</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul></nav>
+    <button id="theme-toggle" class="mono" aria-label="Toggle dark mode" title="Toggle theme">◐</button>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="hero">
+    <div class="prompt mono">&gt; <span id="typed"></span><span class="cursor"></span></div>
+    <h1>Guggilla Misritha</h1>
+    <p class="lede">MCA graduate building full-stack applications with Python, FastAPI, PostgreSQL and React. Looking for an entry-level software development role where I can ship real features and keep learning.</p>
+    <div class="links">
+      <a href="mailto:guggillamisritha@gmail.com">Email</a>
+      <a href="tel:+918074775769">+91 80747 75769</a>
+      <a href="https://linkedin.com/in/misritha-guggilla-3024b53ab" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Misritha0319" target="_blank" rel="noopener">GitHub</a>
+      <a href="#">Hyderabad, India</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <span class="tag mono">01_about</span>
+    <h2 class="title">Summary</h2>
+    <div class="about">
+      <p>I completed my Master of Computer Applications with a focus on backend development and databases. Through academic and personal projects, I've built REST APIs, connected them to relational and document databases, and put together working React front ends around them.</p>
+      <p>I like taking a problem apart, deciding how the data should be modeled, and building something a real user could actually click through. I'm comfortable picking up new tools quickly and want to keep doing that on a team.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <span class="tag mono">02_skills</span>
+    <h2 class="title">Skills</h2>
+    <div class="skill-group">
+      <div class="label">Programming</div>
+      <div class="chips">
+        <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">JavaScript</span><span class="chip">TypeScript</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="label">Web</div>
+      <div class="chips">
+        <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">React</span><span class="chip">FastAPI</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="label">Database</div>
+      <div class="chips">
+        <span class="chip">PostgreSQL</span><span class="chip">MongoDB</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="label">Tools</div>
+      <div class="chips">
+        <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">REST APIs</span><span class="chip">JWT</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <span class="tag mono">03_projects</span>
+    <h2 class="title">Projects</h2>
+
+    <div class="project">
+      <div class="file mono">job-portal-and-token-system/</div>
+      <h3>Job Portal &amp; Walk-In Token Management System</h3>
+      <div class="stack mono"><span>Python · FastAPI · React · PostgreSQL · REST APIs · JWT</span></div>
+      <ul>
+        <li>Built a job portal with separate recruiter and seeker flows, covering job postings and applications end to end.</li>
+        <li>Added JWT-based authentication so each user only sees and manages their own data.</li>
+        <li>Designed a walk-in token generation and queue system to manage candidate flow during recruitment drives.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="file mono">online-code-judge/</div>
+      <h3>Online Code Judge System</h3>
+      <div class="stack mono"><span>Python · React · Node.js · Express.js · MongoDB · REST APIs</span></div>
+      <ul>
+        <li>Built a coding platform where users solve programming problems and submit code for evaluation.</li>
+        <li>Implemented user authentication and an admin dashboard for managing problems and submissions.</li>
+        <li>Structured problem management on MongoDB with a REST API connecting the React front end to the Express/Node.js backend.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education">
+    <span class="tag mono">04_education</span>
+    <h2 class="title">Education</h2>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="score mono">CGPA 85%</div>
+        <div>
+          <h4>Master of Computer Applications</h4>
+          <div class="school">Aurora's PG College, Uppal</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="score mono">CGPA 87%</div>
+        <div>
+          <h4>B.Sc, MPCS</h4>
+          <div class="school">Dharmika Degree College</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="score mono">CGPA 92%</div>
+        <div>
+          <h4>Higher Secondary, MPC</h4>
+          <div class="school">Pavitra Junior College</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="score mono">CGPA 93%</div>
+        <div>
+          <h4>Board of Secondary Education</h4>
+          <div class="school">ZPHS School</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <span class="tag mono">05_contact</span>
+    <div class="cta">
+      <h2>Open to entry-level software development roles.</h2>
+      <div class="contact-list">
+        <a href="mailto:guggillamisritha@gmail.com"><span class="k mono">email</span> guggillamisritha@gmail.com</a>
+        <a href="tel:+918074775769"><span class="k mono">phone</span> +91 80747 75769</a>
+        <a href="https://linkedin.com/in/misritha-guggilla-3024b53ab" target="_blank" rel="noopener"><span class="k mono">linkedin</span> /in/misritha-guggilla</a>
+        <a href="https://github.com/Misritha0319" target="_blank" rel="noopener"><span class="k mono">github</span> /Misritha0319</a>
+      </div>
+    </div>
+    <div class="bottom mono">Guggilla Misritha — Hyderabad, India</div>
+  </footer>
+
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
